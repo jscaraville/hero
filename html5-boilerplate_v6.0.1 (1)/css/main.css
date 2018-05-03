@@ -287,12 +287,13 @@ body.blue {
 }
 .giant span {
   display: inline-block;
-  transform:translateX(20px) scale(7,6);
+  transform:translateX(15px) scale(2,2);
+  color:navy;
 }
 .wave span {
   display: inline-block;
   transform:translateX(20px) scale(2,2);
-  color: blue;
+  color: navy;
 }
 
 .wave {
@@ -307,6 +308,12 @@ transform: translateX(10px) scale(2,2);
 .flood span {
   display:inline-block;
 transform: translateY(20px) scale(3,2);
+}
+
+.water span {
+  display:inline-block;
+transform: translateY(20px) scale(1.5,2.5);
+color:navy;
 }
 
 
